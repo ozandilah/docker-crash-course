@@ -1,0 +1,16 @@
+{
+  "name": "docker-crash-coursed",
+  "version": "1.0.0",
+  "description": "All course files for the Docker Crash Course tutorial on the Net Ninja site &amp; YouTube channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

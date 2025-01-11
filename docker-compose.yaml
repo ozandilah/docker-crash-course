@@ -1,12 +1,10 @@
-version: "3.8"
+version: '4.0'
 services:
   web:
     build: ./api
     container_name: api_c
     ports:
-      - "3000:3000"
+      - '3000:3000'
     stdin_open: true
     tty: true
 
-
-# MASIH BELUM BISA JALAN

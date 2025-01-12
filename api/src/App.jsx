@@ -4,13 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [blog, setBlog] = useState([])
-  useEffect(() => {
-    fetch('https:jsonplaceholder.typicode.com/posts')
-      .then((res) => res.json())
-      .then((data) => setBlog(data))
-  })
+
 
   return (
   <div className="App">
@@ -20,24 +14,7 @@ function App() {
       <p>
         Edit <code>src/App.jsx</code> and save to reload.
       </p>
-      <div>
-        <h1>Blog Posts</h1>
-        {blog.length > 0 ? (
-          <ul>
-            {blog.map((post) => (
-              <li key={post.id}>
-                <h2>{post.title}</h2>
-                <p>{post.body}</p>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p>Loading...</p>
-        )}
-      </div>
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button>
+
     </header>
   </div>
   )

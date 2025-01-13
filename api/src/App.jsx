@@ -14,6 +14,9 @@ function App() {
       <p>
         Edit <code>src/App.jsx</code> and save to reload.
       </p>
+    <p>
+      Hello, welcome to my app!
+    </p>
 
     </header>
   </div>

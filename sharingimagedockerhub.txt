@@ -1,0 +1,22 @@
+1. Visit: hub.docker.com
+2. Create a repository for sharing the image.
+
+3. Open terminal and run:
+      ```sh
+      docker build -t masozan/api .
+      ```
+
+4. Navigate to the project directory:
+      ```sh
+      cd /e/PROFESIONAL/BIG/Development/Backend/docker-crash-coursed/api
+      ```
+
+5. Push the image to Docker Hub:
+      ```sh
+      docker push masozan/api
+      ```
+
+6. Remove the local image:
+      ```sh
+      docker image rm masozan/api
+      ```
